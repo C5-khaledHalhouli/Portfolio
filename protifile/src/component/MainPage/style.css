@@ -1,11 +1,11 @@
 .mainPage{
     background-image: url("./Digital-code-Background-by-ojosujono96-580x387.jpg");
- height: 60vw;
+ height: 57.3vw;
     width: 100vw;
     background-repeat: no-repeat;
     /* overflow: hidden; */
     overflow-y: hidden;
-    background-size: 100vw 60vw;
+    background-size: 100vw 57.3vw;
     display: grid;
     grid-template-columns: 63% auto;
     justify-items: center;
