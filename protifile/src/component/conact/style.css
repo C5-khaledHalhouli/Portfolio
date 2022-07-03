@@ -6,3 +6,12 @@
     margin: 5px;
     font-size: 50px;
 }
+.contactInfo:hover {
+animation-name:infoAni2 ;
+animation-duration: 4s;
+}
+@keyframes infoAni2 {
+    0% {color: white ; }
+    50%{color: firebrick;}
+    100%{opacity: white;}
+}
