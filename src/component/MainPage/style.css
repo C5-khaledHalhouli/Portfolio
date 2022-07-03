@@ -13,14 +13,14 @@
 }
 #name{
     color: white;
-    font-size: 60px;
+    /* font-size: 60px; */
     /* animation-name: nameAni;
     animation-duration: 3s; */
     position: relative;
 }
 #about{
     color: white;
-    font-size: 50px;
+    /* font-size: 50px; */
     animation-name: aboutAni;
     animation-duration: 6s;
 }
