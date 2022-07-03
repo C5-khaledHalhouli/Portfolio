@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     /* overflow: hidden; */
     overflow-y: hidden;
-    background-size: 100vw 57.3vw;
+    background-size: 100vw 100%;
     display: grid;
     grid-template-columns: 63% auto;
     justify-items: center;
@@ -14,8 +14,35 @@
 #name{
     color: white;
     font-size: 60px;
+    /* animation-name: nameAni;
+    animation-duration: 3s; */
+    position: relative;
 }
 #about{
     color: white;
     font-size: 50px;
+    animation-name: aboutAni;
+    animation-duration: 6s;
+}
+@keyframes nameAni {
+    0% {opacity: 0% ; }
+    100%{opacity: 100%;}
+}
+@keyframes aboutAni {
+    0% {opacity: 0% ; }
+    50%{opacity: 0%;}
+    
+    100%{opacity: 100%;}
+}
+#name:hover { 
+    position: relative;
+    
+    animation-name:nameAni2 ;
+    animation-duration: 4s;
+
+}
+@keyframes nameAni2 {
+    0% {color: white ; }
+    50%{color: firebrick;}
+    100%{opacity: white;}
 }

@@ -1,5 +1,5 @@
 .skills{
-    background-image: url("./abstract-technology-binary-code-background_6735-500.jpg");
+    background-image: url("./akamai-blue-code-hero-background.jpg");
  height: 57.3vw;
     width: 100vw;
     background-repeat: no-repeat;
@@ -21,4 +21,20 @@
     color: white;
     padding: 20px;
     font-size: 50px;
+}
+.cardSkills{
+    width: 70%;
+    height: 80%;
+    animation-name: cardAni;
+    animation-duration: 5s;
+}
+@keyframes cardAni {
+    0% {opacity: 0% ; }
+    100%{opacity: 100%;}
+}
+.listSkill{
+    font-size: 1.5rem;
+}
+.titleSkill{
+    font-size: 2rem;
 }

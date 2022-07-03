@@ -1,3 +1,7 @@
 .App{
     overflow: hidden;
+    background-color: #08121c;
+}
+*{
+    overflow: hidden;
 }

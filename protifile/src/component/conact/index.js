@@ -1,8 +1,7 @@
 import "./style.css";
 import { Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { AiFillGithub,AiFillLinkedin } from "react-icons/ai";
-import { MdEmail } from "react-icons/md";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 
 const Contact = () => {
@@ -14,9 +13,29 @@ const Contact = () => {
         <h1 className="contactInfo">+962798946171</h1>
       </div>
       <div className="rightSideContact">
-        <Button variant="light" className="buttonContact" href="https://www.linkedin.com/in/khaled-halhouli/"><AiFillLinkedin/></Button>
-        <Button variant="light" className="buttonContact" href="https://github.com/khaledHalhouli"><AiFillGithub/></Button>
-        <Button variant="light" className="buttonContact" href="https://onedrive.live.com/?authkey=%21AtkQ8Co7rA4NiJ4&cid=022D999D68C4A0FF&id=22D999D68C4A0FF%21201373&parId=22D999D68C4A0FF%21200374&o=OneUp">CV</Button>
+        <Button
+          variant="light"
+          className="buttonContact"
+          href="https://www.linkedin.com/in/khaled-halhouli/"
+        >
+          <AiFillLinkedin />
+        </Button>
+        <Button
+          variant="light"
+          className="buttonContact"
+          href="https://github.com/khaledHalhouli"
+        >
+          <AiFillGithub />
+        </Button>
+
+        <Button
+          variant="light"
+          className="buttonContact"
+          href={require("../Conact/KHALEd.pdf")}
+          download
+        >
+          CV
+        </Button>
       </div>
     </div>
   );
