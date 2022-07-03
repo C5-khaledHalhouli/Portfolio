@@ -1,10 +1,10 @@
 .contactInfo{
-    font-size: 50px;
+    /* font-size: 50px; */
     color: white;
 }
 .buttonContact{
     margin: 5px;
-    font-size: 50px;
+    font-size: 20px;
 }
 .contactInfo:hover {
 animation-name:infoAni2 ;
